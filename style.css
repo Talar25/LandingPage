@@ -14,6 +14,7 @@ body {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  font-size: 1.8rem;
 }
 
 /* navbar */
@@ -107,4 +108,46 @@ body {
   padding: 12rem 8rem;
   font-size: 1.8rem;
   color: #e5e7eb;
+}
+
+/* cards-section */
+
+.cards-section {
+  text-align: center;
+  margin-bottom: 12rem;
+}
+
+.heading-secondary {
+  font-size: 3.6rem;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+  margin: 5rem;
+}
+
+.cards-section .container {
+  max-width: 100rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cards-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-box .paragraph {
+  width: 80%;
+}
+
+.card {
+  width: 18rem;
+  height: 18rem;
+  border: 5px solid #3882f6;
+  border-radius: 20px;
+  margin-bottom: 1rem;
 }

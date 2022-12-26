@@ -151,3 +151,29 @@ body {
   border-radius: 20px;
   margin-bottom: 1rem;
 }
+
+/* testimonial section */
+
+.testimonials-section {
+  background-color: #e5e7eb;
+}
+
+.testimonials-section .container {
+  width: 100rem;
+  margin: 0 auto;
+  padding: 10rem;
+}
+
+.testimonials-section .quote {
+  font-size: 3.6rem;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.testimonials-section span {
+  font-weight: 700;
+  font-size: 2.6rem;
+  display: block;
+  margin-left: auto;
+  width: max-content;
+}

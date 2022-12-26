@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.navbar {
+  background-color: #1f2937;
+  color: #fff;
+  padding: 2rem;
+}
+
+.navbar .container {
+  max-width: 110rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 2.4rem;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+.nav a:link,
+.nav a:visited {
+  font-size: 1.8rem;
+  color: #e5e7eb;
+  text-decoration: none;
+}
